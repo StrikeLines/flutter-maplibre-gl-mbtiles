@@ -24,6 +24,7 @@ import 'layer.dart';
 import 'line.dart';
 import 'local_style.dart';
 import 'map_ui.dart';
+import 'mbtiles_raster.dart';
 import 'move_camera.dart';
 import 'offline_regions.dart';
 import 'page.dart';
@@ -59,6 +60,7 @@ final List<ExamplePage> _allPages = <ExamplePage>[
   const GetMapInfoPage(),
   const NoLocationPermissionPage(),
   const AttributionPage(),
+  const MBTilesRasterPage(), // Add our new MBTiles raster example
 ];
 
 class MapsDemo extends StatefulWidget {
