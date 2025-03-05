@@ -58,8 +58,8 @@ final List<ExamplePage> _allPages = <ExamplePage>[
   const Sources(),
   const GivenBoundsPage(),
   const GetMapInfoPage(),
-  const NoLocationPermissionPage(),
-  const AttributionPage(),*/
+  const NoLocationPermissionPage(),*/
+  const AttributionPage(),
   const MBTilesRasterPage(), // Add our new MBTiles raster example
 ];
 
