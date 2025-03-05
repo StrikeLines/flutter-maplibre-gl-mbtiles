@@ -37,7 +37,7 @@ import 'scrolling_map.dart';
 import 'sources.dart';
 
 final List<ExamplePage> _allPages = <ExamplePage>[
-  const MapUiPage(),
+  /* const MapUiPage(),
   const FullMapPage(),
   const LocalizedMapPage(),
   const AnimateCameraPage(),
@@ -59,7 +59,7 @@ final List<ExamplePage> _allPages = <ExamplePage>[
   const GivenBoundsPage(),
   const GetMapInfoPage(),
   const NoLocationPermissionPage(),
-  const AttributionPage(),
+  const AttributionPage(),*/
   const MBTilesRasterPage(), // Add our new MBTiles raster example
 ];
 
